@@ -1,3 +1,5 @@
+
+
 header{
     background-color: antiquewhite;
     padding: 25px;
@@ -8,9 +10,17 @@ header{
     text-decoration: none;
 }
 
+#myName{
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(60, 33, 10);
+}
+
 a{
     text-decoration: none;
     color: black;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 
@@ -30,5 +40,11 @@ h1{
     font-size: 45px;
 }
 body{
-    margin: 0%
+    margin: 0%;
+    background-color: rgb(226, 215, 250);
+}
+
+#homeTitle{
+    font-size:50px;
+    margin: 5px;
 }
