@@ -45,19 +45,57 @@ body{
     justify-content: center;
     text-align: center;
 }
+#subtitle{
+    font-size:25px;
+    margin: 20px;
+    color: rgb(255, 255, 255);
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    justify-content: center;
+    text-align: center;
+}
+#homeDesc{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    width: 300px;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    border-width: 4px;
+    border-style:solid;
+    border-color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+
+}
 
 #picDesc{
     color: rgb(255, 255, 255);
-    font-size: 20px;
-    text-align: center;
-    justify-content: center;
-    width: 300px;
+    font-size: 18px;
+    width: 400px;
     font-family:Georgia, 'Times New Roman', Times, serif ;
+    border-width: 4px;
+    border-style:solid;
+    border-color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
 }
 
-.home img{
-    width: 300px;
+#soccerPic{
+    width: 350px;
     height: 100%;
+}
+img{
+    border-style: groove;
+    border-width: 10px;
+}
+#ihccLogo{
+    border-style: none;
+    width: 250px;
+    height: 100%;
+
+}
+
+#byteJamPic{
+    width: 100%;
+    height: 300px;
 }
 
 #picCap{
@@ -71,14 +109,24 @@ body{
     justify-content: center;
     gap: 25px;
 }
+.homeLayout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.home img{
+    width: 300px;
+    height: 100%;
+}
 
 .soccerDiv{
     display: flex;
     align-items: center;
-    gap: 25px;
+    justify-content: center;
+    margin: 20px;
 }
 
 .soccerDiv img{
-    width: 500px;
+    width: 300px;
     height: 100%;
 }
