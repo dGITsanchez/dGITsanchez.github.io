@@ -109,6 +109,57 @@ img{
     justify-content: center;
     gap: 25px;
 }
+/*Contact Me*/
+.infoDiv {
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    background-color: rgb(22, 67, 22);
+    background-size: cover;
+    width: 400px;
+    height: 450px;
+    justify-self: center;
+    padding: 10px;
+}
+.infoDiv div{
+    flex-direction: row;
+    display: flex;
+    color: white;
+    gap: 15px;
+    
+}
+.infoDiv div h5{
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.infoDiv div p{
+    font-size: 18px;
+    align-self: baseline;
+    display: flex;
+}
+#subheading{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 300px;
+    height: 50px;
+    background-color: rgba(9, 20, 4, 0.922);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+
+}
+
+/* Resume*/
+embed{
+    width: 600px;
+    height: 80vh;
+    align-content: center;
+    justify-self: center;
+    display: flex;
+    border: none
+}
+
 .homeLayout{
     display: flex;
     flex-direction: column;
@@ -127,6 +178,23 @@ img{
 }
 
 .soccerDiv img{
+    width: 300px;
+    height: 100%;
+}
+.mexicoDesc{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+
+}
+.mexicoDesc img{
+    width: 500px;
+    height: 100%;
+
+}
+.mexicoDesc p{
     width: 300px;
     height: 100%;
 }
