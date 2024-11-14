@@ -109,6 +109,44 @@ img{
     justify-content: center;
     gap: 25px;
 }
+.homeLayout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.home img{
+    width: 300px;
+    height: 100%;
+}
+
+.soccerDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.soccerDiv img{
+    width: 300px;
+    height: 100%;
+}
+.mexicoDesc{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+
+}
+.mexicoDesc img{
+    width: 500px;
+    height: 100%;
+
+}
+.mexicoDesc p{
+    width: 300px;
+    height: 100%;
+}
 /*Contact Me*/
 .infoDiv {
     align-items: center;
@@ -149,6 +187,45 @@ img{
     font-size: 23px;
 
 }
+.sendContact{
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    background-color: rgb(22, 67, 22);
+    background-size: cover;
+    width: 400px;
+    height: 450px;
+    justify-self: center;
+    padding: 10px;
+    color: white;
+}
+.contactLayout{
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    gap: 20px;
+}
+h1{
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+input[type="newsletter"]{
+    align-self: flex-start;
+}
+
+fieldset{
+    display: flex;
+    justify-content: space-between;
+}
+/*Contact Me^*/
 
 /* Resume*/
 embed{
@@ -159,42 +236,64 @@ embed{
     display: flex;
     border: none
 }
+/*Resume^*/
 
-.homeLayout{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+
+/*Classes Layout*/
+caption{
+    border: solid 5px rgba(29, 64, 14, 0.922);
+    background-color: beige;
+    padding: 5px;
+    font-weight: bold;
+    font-family:cursive;
 }
-.home img{
-    width: 300px;
+
+.courseLayout, th, td{
+    border: solid 5px rgba(29, 64, 14, 0.922);
+    border-collapse: collapse;
+    font-family: cursive;
+}
+
+th,td{
+    padding: 8px
+}
+
+td{
+    text-align: center;
+    width: 150px;
+}
+table{
+    background-color: rgb(236, 236, 209);
+    justify-self: center;
+}
+/*Classes Layout*/
+
+/*Projects*/
+#projectDesc{
+    color: #0b4017;
+    background-color: beige;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(11, 64, 23);
+    text-align: center;
+    padding: 5px;
+    width: 600px;
     height: 100%;
+    justify-self: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
-.soccerDiv{
+.projectsDiv{
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 20px;
+    flex-direction: column;
 }
-
-.soccerDiv img{
-    width: 300px;
+#unitOne{
+    width: 800px;
     height: 100%;
 }
-.mexicoDesc{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-
-}
-.mexicoDesc img{
-    width: 500px;
-    height: 100%;
-
-}
-.mexicoDesc p{
-    width: 300px;
+#unitNine{
+    width: 800px;
     height: 100%;
 }
